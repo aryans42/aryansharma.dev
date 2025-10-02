@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Aryan Sharma</title>
+  <link>https://aryansharma.dev</link>
+  <description>Personal website of Aryan Sharma</description>
+  <item>
+    <title>Welcome</title>
+    <link>https://aryansharma.dev/posts/welcome</link>
+    <guid>https://aryansharma.dev/posts/welcome</guid>
+    <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+    <description>A simple, broad personal site—built to evolve.</description>
+  </item>
+  <item>
+    <title>Notes, Projects, Essays</title>
+    <link>https://aryansharma.dev/posts/notes-projects-essays</link>
+    <guid>https://aryansharma.dev/posts/notes-projects-essays</guid>
+    <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
+    <description>What you’ll find here.</description>
+  </item>
+</channel>
+</rss>

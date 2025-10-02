@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aryan Sharma</title>
+<meta name="description" content="Personal website of Aryan Sharma.">
+<link rel="icon" href="/assets/favicon.ico">
+<meta property="og:title" content="Aryan Sharma">
+<meta property="og:description" content="Personal website of Aryan Sharma.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aryansharma.dev">
+<meta property="og:image" content="/assets/og-default.png">
+<link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="/">Aryan Sharma</a>
+    <nav>
+      <a href="/blog.html">Blog</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+      <a class="badge" href="/rss.xml">RSS</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Aryan Sharma</h1>
+    <p>Notes, projects, and essays. Minimal, fast, and focused.</p>
+    <div>
+      <a class="btn btn--primary" href="/blog.html">Read the blog</a>
+      <a class="btn" href="/about.html" style="margin-left:8px">About</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 style="margin:0 0 12px 0">Latest posts</h2>
+    <div class="grid grid-3">
+      <a class="card" href="/posts/welcome.html">
+        <div class="meta">Oct 1, 2025</div>
+        <h3>Welcome</h3>
+        <p>A simple, broad personal site—built to evolve.</p>
+      </a>
+      <a class="card" href="/posts/notes-projects-essays.html">
+        <div class="meta">Sep 20, 2025</div>
+        <h3>Notes, Projects, Essays</h3>
+        <p>What you’ll find here.</p>
+      </a>
+      <a class="card" href="/blog.html">
+        <div class="meta">Browse</div>
+        <h3>All posts →</h3>
+        <p>See every post in one place.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container newsletter">
+    <h3>Get new posts by email</h3>
+    <p style="color:#cbd5e1">Free + no spam. Powered by Buttondown (add later).</p>
+    <form action="https://buttondown.email/api/emails/embed-subscribe/placeholder" method="post" target="_blank">
+      <input required name="email" type="email" placeholder="you@email.com">
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
+<footer class="footer">
+  <div class="container">© <span id="y"></span> Aryan Sharma • <a class="underline" href="/sitemap.xml">sitemap</a></div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body></html>
